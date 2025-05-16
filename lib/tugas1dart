@@ -1,0 +1,46 @@
+void tampilkanbiodata(){
+    String name= "Rida";
+  int age = 25;
+  //int hanya bilangan bulat
+  double height = 165.5;
+  bool isStudent = true;
+  print("Nama: $name");
+  print("age: $age");
+  print("height: $height");
+  print("pelajar: $isStudent");
+    
+List<String>daftar; var buku = ["from zero to hero","sejarah","sains"];
+  print("daftar buku:${ buku[0]}");
+  // kalau tulisan string diganti int maka jadi error
+  
+ var kota = "Jakarta"; // dianggap jadi string (ditebak sama komputer)
+ var angka = 10; // dianggap int atau angka 
+ // var (inference)
+  ///test komen
+   // Contoh komentar satu baris
+  /*
+  Ini adalah komentar multi baris.
+  Anda bisa menulis beberapa baris penjelasan di sini.
+  Ini bisa digunakan untuk menjelaskan kode yang lebih kompleks.
+  */
+  
+Map<String, dynamic> biodata = {
+  "jalan": "wijaya kusuma",
+  "no": 25,
+  "kelurahan" : "duri kosambi",
+  "kecamatan": "cengkareng",
+  "kota" : "jakarta barat",
+   "hobi": "membuat ilustrasi"
+};
+ print("hobi:${biodata['hobi']}");
+print(" ");
+print("jalan:${biodata['jalan']}");
+print("no:${biodata['no']}");
+print("keluarahan:${biodata['kelurahan']}");
+print("kecamatan:${biodata['kecamatan']}");
+print("kota:${biodata['kota']}");
+print("hobi:${biodata['hobi']}");
+}
+  
+
+  

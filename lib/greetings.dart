@@ -1,0 +1,3 @@
+void greetings() {
+  print('tes');
+}

@@ -8,10 +8,11 @@ void soallatihan() {
 
   print(""); // Pemisah antar soal
 
-  // Soal 2 – Cetak karakter * sebanyak 5 kali (dengan spasi)
+  // Soal 2 – Cetak karakter * sebanyak 5 kali (dengan spasi) ini pakai rumus perkalian
   print('* ' * 5);
 
-  // Cetak ***** (tanpa spasi)
+  // Cetak ***** (tanpa spasi) ini pakai rumus string hasil
+  //i++ setiap itu i bertambah 1
   String hasil = '';
   for (int i = 1; i <= 5; i++) {
     hasil += '*';
@@ -59,3 +60,4 @@ void soallatihan() {
   }
 }
 
+///widget adalah kompponen komponen dalam aplikasi
